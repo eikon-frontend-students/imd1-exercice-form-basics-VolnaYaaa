@@ -47,6 +47,6 @@ label:has(:checked) {
 
 ## Rendu final
 
-➡️ [Maquette Figma](ttps://www.figma.com/design/LE9yPmyg8FBsw4g5AE7n8r/HTML-Form-basics?node-id=1-16&t=yPI1jDACgmMkjWJ8-1)
+➡️ [Maquette Figma](https://www.figma.com/design/LE9yPmyg8FBsw4g5AE7n8r/HTML-Form-basics?node-id=1-16&t=yPI1jDACgmMkjWJ8-1)
 
 ![rendu final](./rendu-final.png)
