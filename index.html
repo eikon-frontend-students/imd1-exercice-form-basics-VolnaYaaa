@@ -7,62 +7,48 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+   
     <main>
-      <h1>Les différents types d'input</h1>
-
-      <h2><code>text</code></h2>
-      <div class="demo">
-        <input type="text" />
+      <h1>Discutons et collaborons sur des projets super!</h1>
+      <form action="">
+        <div class="bouton bouton-radio">
+          <p>Je suis intéressé par</p>
+          <label for="radio1"> 
+            UI / UX Design
+            <input type="radio" id="radio1" name="radio" value="UI / UX Design" />
+          </label>
+  
+          <label for="radio2">Web design
+            <input type="radio" id="radio2" name="radio" value="Web design" />
+          </label>
+  
+          <label for="radio3">Graphic design
+            <input type="radio" id="radio3" name="radio" value="Graphic design" />
+          </label>
+  
+          <label for="radio4">Other
+            <input type="radio" id="radio4" name="radio" value="Other" />
+          </label>
+        </div>
+      
+        <div class="nom">
+          <label for="name">Enter your email: </label>
+          <input type="name" name="name" id="name" placeholder="Votre prénom" required />
+        </div>
+        <div class="email">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="text">
+          <label for="text">Message * </label>
+          <input type="text" name="text" id="text" placeholder="Votre message" required />
+        </div>
+        <button type="submit">Envoyer</button>
+        
+      </form>
+      
+      
       </div>
-
-      <h2><code>password</code></h2>
-      <!-- 🦊 Complétez tous les <div class="demo"> avec l'input correspondant -->
-      <div class="demo"></div>
-
-      <h2><code>email</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>url</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>checkbox</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>radio</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>date</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>datetime-local</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>time</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>range</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>number</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>file</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>tel</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>color</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>reset</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>search</code></h2>
-      <div class="demo"></div>
-
-      <h2><code>hidden</code></h2>
-      <div class="demo"></div>
     </main>
   </body>
 </html>
